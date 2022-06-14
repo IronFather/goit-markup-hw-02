@@ -5,40 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-01-yashchuk-yurii</title>
+    <!-- Fonts Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="page">
+  <body class="body">
     <!--Header Верхняя линия-->
     <header class="header">
-      <nav class="site-nav">
-        <a class="logo" href="#">Web<span class="span-header">Studio</span></a>
-        <ul class="list">
+      <nav class="header-nav">
+        <a class="header-logo" href="#"
+          >Web<span class="header-span">Studio</span></a
+        >
+        <ul class="header-list">
           <li>
-            <a class="link" href="#Студия">Студия</a>
+            <a class="header-link" href="#Студия">Студия</a>
           </li>
           <li>
-            <a class="link" href="#Портфолио">Портфолио</a>
+            <a class="header-link" href="#Портфолио">Портфолио</a>
           </li>
           <li>
-            <a class="link" href="#Контакты">Контакты</a>
+            <a class="header-link" href="#Контакты">Контакты</a>
           </li>
         </ul>
       </nav>
-      <div class="contacts">
+      <div class="header-contacts">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
     </header>
     <main>
       <!--sec1 hero-->
-      <section>
+      <section class="hero">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button class="btn" type="button">Заказать услугу</button>
+        <button class="hero-btn" type="button">Заказать услугу</button>
       </section>
       <!--sec2 Особенности-->
-      <section>
+      <section class="features">
         <h2>Особенности</h2>
-        <ul class="list">
+        <ul class="features-list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -70,7 +80,7 @@
         </ul>
       </section>
       <!--sec3 Чем мы занимаемся-->
-      <section>
+      <section class="service">
         <h2>Чем мы занимаемся</h2>
         <ul class="list">
           <li>
@@ -100,7 +110,7 @@
         </ul>
       </section>
       <!--sec4 Наша команда-->
-      <section>
+      <section class="team">
         <h2>Наша команда</h2>
         <ul class="list">
           <li>
@@ -147,8 +157,10 @@
       </section>
     </main>
     <!--Footer Подвал-->
-    <footer>
-      <a class="logo" href="#">Web<span class="span-footer">Studio</span></a>
+    <footer class="footer">
+      <a class="footer-logo" href="#"
+        >Web<span class="footer-span">Studio</span></a
+      >
       <address>
         <ul class="list">
           <li>

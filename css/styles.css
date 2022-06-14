@@ -1,47 +1,81 @@
+:root
+/* fonts */
+--main-font: "Roboto";
+--secondary-font: "Raleway"
+
+/* text color */
+--color:#757575;
+
+/* bg color */
+--background: #FFFFFF;
+/* others */
 
 /* background colors
  - main ##FFFFFF
  - second #2F303A #E5E5E5 */
 
 /* text colors 
-- second #757575 #FFFFFF rgba(255, 255, 255, 0.6) #000000
+- main  #757575
+- second #212121 #FFFFFF rgba(255, 255, 255, 0.6) #000000
 - hover  #2196F3 */
 
-/* page */
-.page {
-background: #FFFFFF;
-color:#212121;}
+/* body */
+.body {
+background: FFFFFF;
+color:#757575;
+font-family: var(--main-font), sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
 
 /* logo */
-.logo {
-    color: #2196F3;
+.header-logo {
+color: #2196F3;
+
 }
-.span-header {
+.header-span {
 color: #000000;    
 }
-.span-footer {
+.footer-span {
 color: #FFFFFF;
 }
 
 /* сброс */
 .list {
-    list-style: none;
+list-style: none;
 }
 
 /* HEADER */
-/* site-nav */
-.site-nav .link {
+/* header-nav */
+.header-link {
 color: #212121;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-link:hover,
+.header-link:focus {
     color: #2196F3; 
 }
+
 /* header-contacts */
-.contacts a {
+.header-contacts a {
+text-decoration: none;
 color: #757575;    
 }
-.contacts a:hover,
-.contacts a:focus {
+.header-contacts a:hover,
+.header-contacts a:focus {
 color: #2196F3;
 }
+
+/* MAIN */
+/* 1 hero */
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */

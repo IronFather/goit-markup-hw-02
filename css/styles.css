@@ -1,49 +1,51 @@
-:root
-/* fonts */
---main-font: "Roboto";
---secondary-font: "Raleway"
-
-/* text color */
---color:#757575;
-
-/* bg color */
---background: #FFFFFF;
-/* others */
 
 /* background colors
- - main ##FFFFFF
- - second #2F303A #E5E5E5 */
+    - main ##FFFFFF
+    - second #2F303A #E5E5E5 */
 
 /* text colors 
-- main  #757575
-- second #212121 #FFFFFF rgba(255, 255, 255, 0.6) #000000
-- hover  #2196F3 */
+    - main  #757575
+    - second #212121 #FFFFFF rgba(255, 255, 255, 0.6) #000000
+    - hover  #2196F3 */
 
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --secondary-font: "Raleway"; 
+
+    /* text color */
+    --main-color: #757575;
+
+    /* bg color */
+    --background: #FFFFFF;
+
+    /* others */
+}
 /* body */
 .body {
-background: FFFFFF;
-color:#757575;
-font-family: var(--main-font), sans-serif;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    background: var(--background);
+    color: var(--main-color);
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* common styles start */
+.list {
+    text-decoration: none;
+    list-style: none;
 }
 
 /* logo */
 .header-logo {
 color: #2196F3;
-
 }
 .header-span {
 color: #000000;    
 }
 .footer-span {
 color: #FFFFFF;
-}
-
-/* сброс */
-.list {
-list-style: none;
 }
 
 /* HEADER */
@@ -58,8 +60,8 @@ color: #212121;
 
 /* header-contacts */
 .header-contacts a {
-text-decoration: none;
-color: #757575;    
+    text-decoration: none;
+    color: #757575;    
 }
 .header-contacts a:hover,
 .header-contacts a:focus {
@@ -68,6 +70,10 @@ color: #2196F3;
 
 /* MAIN */
 /* 1 hero */
+.hero {
+    background: 2F303A;
+    color: #FFFFFF;
+}
 
 
 

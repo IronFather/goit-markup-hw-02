@@ -1,0 +1,47 @@
+
+/* background colors
+ - main ##FFFFFF
+ - second #2F303A #E5E5E5 */
+
+/* text colors 
+- second #757575 #FFFFFF rgba(255, 255, 255, 0.6) #000000
+- hover  #2196F3 */
+
+/* page */
+.page {
+background: #FFFFFF;
+color:#212121;}
+
+/* logo */
+.logo {
+    color: #2196F3;
+}
+.span-header {
+color: #000000;    
+}
+.span-footer {
+color: #FFFFFF;
+}
+
+/* сброс */
+.list {
+    list-style: none;
+}
+
+/* HEADER */
+/* site-nav */
+.site-nav .link {
+color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3; 
+}
+/* header-contacts */
+.contacts a {
+color: #757575;    
+}
+.contacts a:hover,
+.contacts a:focus {
+color: #2196F3;
+}

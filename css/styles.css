@@ -42,6 +42,10 @@
 /* HEADER */
 /* header-nav */
 
+.header-nav .header-link.current {
+color: var(--accent-cl);
+}
+
  /* logo */
 .header-logo {
     font-weight: 700;
@@ -125,6 +129,7 @@ color: var(--accent-cl);
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -232,8 +237,42 @@ color: var(--accent-cl);
     background: #2F303A;
 }*/
 
+/* PORTFOLIO */
 
+.filters-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-cl);
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+.filters-btn:hover,
+.filters-btn:focus {
+    background: var(--accent-cl);
+    color: #FFFFFF;
+}
 
+.portfolio-title {
+visibility: hidden;    
+}
 
+.portfolio-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--second-cl);
+}
 
+.portfolio-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color:var(--main-cl);
+}

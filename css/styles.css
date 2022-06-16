@@ -195,14 +195,22 @@ color: var(--accent-cl);
     text-decoration: none;
     list-style: none;
 }
+
+/* fixed bug 6 added font-style normal */
+
+.list .address-link,
+.list .link {
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+}
+
 .list .address-link {
     color: var(--add_white_cl);
 }
 
 .list .link {
      color: var(--add_rgba_cl);
-    text-decoration: none;
-    list-style: none;
     }
 /* fixed bug 3 checked bg-cl by var and deleted excess */
 .footer {  

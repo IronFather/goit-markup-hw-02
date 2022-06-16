@@ -11,7 +11,7 @@
 :root {
     /* fonts */
     --main-font: "Roboto";
-    --secondary-font: "Raleway"; 
+    --second-font: "Raleway"; 
 
     /* fixed bug 2 checked colors by var */
     /* txt cl */
@@ -57,7 +57,9 @@ color: var(--accent-cl);
 }
 
  /* logo */
+ /* fixed bug 5 logo */
 .header-logo {
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -185,6 +187,7 @@ color: var(--accent-cl);
 
 /* footer */
 .footer-logo {
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;

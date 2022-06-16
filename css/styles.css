@@ -13,9 +13,13 @@
     --main-font: "Roboto";
     --secondary-font: "Raleway"; 
 
+    /* fixed bug 2 checked colors by var */
     /* txt cl */
     --main-cl: #757575;
     --second-cl: #212121;
+    --add_white_cl: #FFFFFF;
+    --add_black_cl: #000000;
+    --add_rgba_cl: rgba(255, 255, 255, 0.6);
     --accent-cl: #2196F3;
 
     /* bg-cl */
@@ -52,17 +56,17 @@ color: var(--accent-cl);
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-cl);
     text-decoration: none;
     list-style: none;
 }
   
 .header-span { 
-    color: #000000;
+    color: var(--add_black_cl);
 }
         
 .footer-span {
-    color: #FFFFFF;
+    color: var(--add_white_cl);
 }
 
 .header-link {
@@ -109,7 +113,7 @@ color: var(--accent-cl);
 }*/
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--add_white_cl);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -120,7 +124,7 @@ color: var(--accent-cl);
 
 .hero-btn {
     background: #2196F3;
-    color: #FFFFFF;
+    color: var(--add_white_cl);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
@@ -204,7 +208,7 @@ color: var(--accent-cl);
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-cl);
     text-decoration: none;
     list-style: none;
 }
@@ -213,7 +217,7 @@ color: var(--accent-cl);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--add_white_cl);
     text-decoration: none;
     list-style: none;
 }
@@ -223,7 +227,7 @@ color: var(--accent-cl);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
+     color: var(--add_rgba_cl);
     text-decoration: none;
     list-style: none;
     }
@@ -254,7 +258,7 @@ color: var(--accent-cl);
 .filters-btn:hover,
 .filters-btn:focus {
     background: var(--accent-cl);
-    color: #FFFFFF;
+    color: var(--add_white_cl);
 }
 
 .portfolio-title {

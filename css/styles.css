@@ -44,9 +44,11 @@
 }
 
 /* common styles start */
+/* fixed bug 7 changed list-style */
 .list {
     text-decoration: none;
     list-style: none;
+    
 }
 
 /* HEADER */
@@ -151,7 +153,7 @@ color: var(--accent-cl);
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--second-cl);
-}
+}   
 .features-txt {
     color: var(--main-cl);
 }
@@ -247,6 +249,7 @@ visibility: hidden;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--second-cl);
+    font-style: normal;
 }
 
 .portfolio-txt {
